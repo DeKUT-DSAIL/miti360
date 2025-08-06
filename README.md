@@ -31,7 +31,7 @@ For each tree whose data was recorded during the field survey, there is a single
 - `LONGITUDE`: GPS longitude of the tree in the WGS84 coordinate frame.
 
 #### Dataset Organisation and Hosting
-For information on how the dataset is organised, see this README text file.
+For information on how the dataset is organised, see this [README text file](README.txt).
 The dataset is hosted in two Google Cloud Storage buckets:
 - Aerial: Contains aerial images plus associated files.
 - Terrestrial: Contains ground-based images plus associated files.
