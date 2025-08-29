@@ -40,6 +40,9 @@ For each tree whose data was recorded during the field survey, there is a single
 
 - The instructions for accessing the weather data are found in the [weather-metadata](weather-metadata) directory.
 
+### Technical Report
+For more details on the methods used to develop the dataset and usage guidelines, please refer to the [technical report](reports/technical_report.pdf).
+
 ### Appropriate Usage of Miti360
 Miti360 can be used in varied ways to train and assess machine learning models. One useful research angle we have pursued in the past is that of [automating tree inventory](https://doi.org/10.1016/j.softx.2024.101661) using stereoscopic photogrammetry. With recent advances in deep learning and 3D computer vision, the stereoscopic images in Miti360 would be invaluable in developing better techniques for achieving the same goals. Regardless of the ways in which dataset may be used, we believe that all efforts directed towards developing novel techniques for forest monitoring tailored towards our African context will produce the greatest impact.
 
