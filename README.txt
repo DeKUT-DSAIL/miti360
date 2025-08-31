@@ -13,9 +13,12 @@ Aerial/
 │   ├──Phase_1/
 │   │   ├── Orthophoto/
 │   │   │   └── xxx.tif
-│   │   │   ├──shapefiles/
-│   │   │   │   └── bounding_boxes.tif
-│   │   │   │   └── tree_attributes.tif
+│   │   │   ├──bounding_boxes/
+│   │   │   │   └── 2024_08_annotations.shp
+│   │   │   │   └── ...
+│   │   │   ├──tree_attributes/
+│   │   │   │   └── tree_attributes_ex_1.shp
+│   │   │   │   └── ...
 │   │   ├── Tiles/
 │   │   │   └── xxx.tif
 │   │   │   └── ...
@@ -26,9 +29,12 @@ Aerial/
 │   ├──Phase_2/
 │   │   ├── Orthophoto/
 │   │   │   └── xxx.tif
-│   │   │   ├──shapefiles/
-│   │   │   │   └── bounding_boxes.tif
-│   │   │   │   └── tree_attributes.tif
+│   │   │   ├──bounding_boxes/
+│   │   │   │   └── 2025_02_annotations.shp
+│   │   │   │   └── ...
+│   │   │   ├──tree_attributes/
+│   │   │   │   └── tree_attributes_ex_2.shp
+│   │   │   │   └── ...
 │   │   ├── Tiles/
 │   │   │   └── xxx.tif
 │   │   │   └── ...
