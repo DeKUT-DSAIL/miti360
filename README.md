@@ -49,11 +49,11 @@ For more details on the methods used to develop the dataset and usage guidelines
 Miti360 can be used in varied ways to train and assess machine learning models. One useful research angle we have pursued in the past is that of [automating tree inventory](https://doi.org/10.1016/j.softx.2024.101661) using stereoscopic photogrammetry. With recent advances in deep learning and 3D computer vision, the stereoscopic images in Miti360 would be invaluable in developing better techniques for achieving the same goals. Regardless of the ways in which dataset may be used, we believe that all efforts directed towards developing novel techniques for forest monitoring tailored towards our African context will produce the greatest impact.
 
 ### Licensing
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 Copyright (C) 2025 Centre for Data Science and Artificial Intelligence, DeKUT
 
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0). 
-
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+The miti360 dataset is licensed under the CC-BY 4.0 License, Version 4.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at [https://creativecommons.org/licenses/by/4.0/legalcode.txt](https://creativecommons.org/licenses/by/4.0/legalcode.txt). 
 
 ### Contact Information
 Cedric Kiplimo: cedric.kiplimo@dkut.ac.ke or dsail-info@dkut.ac.ke
