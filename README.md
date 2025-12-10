@@ -12,7 +12,7 @@ Below is a tabular summary of the dataset contents:
 | --- | ----------------------------- | ---------------------- | -------------------------------------------- | ------------ |
 | 1   | Drone Images                  | Orthophoto             | 2                                            | TIF          |
 |     |                               | Tiles                  | 844                                          | TIF          |
-|     |                               | Tree crown annotations | 24197                                        | JSON         |
+|     |                               | Tree crown annotations | 57058                                        | JSON         |
 |     |                               | Tree crown species     | 1208                                         | CSV          |
 |     |                               | Tree species shapefile | 1208                                         | SHP          |
 | 2   | Tree ground measurements      | Numeric data           | 1208 (601 trees in 2024 & 607 trees in 2025) | CSV          |
@@ -42,6 +42,9 @@ For each tree whose data was recorded during the field survey, there is a single
 
 - The instructions for accessing the weather data are found in the [weather-metadata](weather-metadata) directory.
 
+### Dissemination
+- The Miti360 dataset now has a [website](https://miti360.github.io/). You can read more about it and download the dataset from there.
+
 ### Technical Report
 For more details on the methods used to develop the dataset and usage guidelines, please refer to the [technical report](reports/technical_report.pdf).
 
@@ -54,6 +57,19 @@ Miti360 can be used in varied ways to train and assess machine learning models. 
 Copyright (C) 2025 Centre for Data Science and Artificial Intelligence, DeKUT
 
 The miti360 dataset is licensed under the CC-BY 4.0 License, Version 4.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at [https://creativecommons.org/licenses/by/4.0/legalcode.txt](https://creativecommons.org/licenses/by/4.0/legalcode.txt). 
+
+### Citation
+If you use Miti360 for research purposes, please consider citing:
+
+```text
+@techreport{kiplimo2024miti360,
+  title = {Miti360: An Integrated Dataset Combining Remote Sensing, Ground Measurements and Weather Data for Improved Reforestation Monitoring},
+  author = {Kiplimo, Cedric and Mbatia, Samuel and wa Maina, Ciira and Sichangi, Arthur and Gitundu, Denis},
+  institution = {Centre for Data Science and Artificial Intelligence (DSAIL), Dedan Kimathi University of Technology},
+  year = {2024},
+  address = {Nyeri, Kenya}
+}
+```
 
 ### Contact Information
 Cedric Kiplimo: cedric.kiplimo@dkut.ac.ke or dsail-info@dkut.ac.ke

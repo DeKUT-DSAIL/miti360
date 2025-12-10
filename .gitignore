@@ -213,3 +213,4 @@ sample_data/masks/*
 sample_data/overlays/*
 
 notebooks/*.png
+notebooks/*.npy
