@@ -207,4 +207,9 @@ marimo/_lsp/
 __marimo__/
 
 reports/technical_report.docx
-notebooks/
+
+sample_data/*/exclude
+sample_data/masks/*
+sample_data/overlays/*
+
+notebooks/*.png
