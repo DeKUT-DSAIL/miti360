@@ -133,12 +133,6 @@ The network consists of 40 automated weather stations with detailed location inf
 - **Elevation range**: Approximately 1,800-2,400 m above sea level
 - **Coordinate system**: WGS84 (EPSG:4326)
 
-### Spatial Coverage
-- **Bounding box**: [To be updated with specific coordinates]
-- **Network density**: Variable, optimized for hydrological and agricultural monitoring
-: NaN (Not a Number)
-
-
 
 ## Contact Information
 
