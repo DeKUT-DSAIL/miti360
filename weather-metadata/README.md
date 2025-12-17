@@ -65,6 +65,22 @@ The network consists of 40 automated weather stations with detailed location inf
 - **XXXXX**: Unique 5-digit station identifier
 - **_SXXXXXX**: Sensor-specific suffix for multi-sensor stations
 
+## Data Format and Structure
+
+### File Format
+- Data will be available via an API key and Secret upon request.
+
+### Data Structure
+
+|Date        | TA00416 | TA00080_S000823 | ... | TA00573 |
+|----------- | ------- | --------------- | --- |-------- |                 
+| YYYY-MM-DD | value   | value           | ... | value   |
+
+
+### Missing Data Representation
+- **Missing values**
+
+
 ## Meteorological Variables
 
 ### Temperature Variables
@@ -120,22 +136,7 @@ The network consists of 40 automated weather stations with detailed location inf
 ### Spatial Coverage
 - **Bounding box**: [To be updated with specific coordinates]
 - **Network density**: Variable, optimized for hydrological and agricultural monitoring
-
-## Data Format and Structure
-
-### File Format
-- **Primary format**: Excel (.xlsx) This can be found (https://docs.google.com/spreadsheets/d/1FmFuucM6O6IlPZzJDFfWT6ssX9nY8oCx/edit?usp=sharing&ouid=104149395898630481361&rtpof=true&sd=true)
-- **API Endpoint**: Data can also be accessed via filter-stations (https://filter-stations.netlify.app/#Kieni) with the Kieni class, api key and secret available upon request
-
-### Data Structure
-
-|Date        | TA00416 | TA00080_S000823 | ... | TA00573 |
-|----------- | ------- | --------------- | --- |-------- |                 
-| YYYY-MM-DD | value   | value           | ... | value   |
-
-
-### Missing Data Representation
-- **Missing values**: NaN (Not a Number)
+: NaN (Not a Number)
 
 
 
