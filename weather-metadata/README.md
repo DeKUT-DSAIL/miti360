@@ -2,7 +2,8 @@
 
 ## Dataset Overview
 
-This dataset contains meteorological observations from 40 Trans-African Hydro-Meteorological Observatory (TAHMO) weather stations located in the Kieni region. The data spans from 2017 to 2024, providing 7+ years of weather monitoring data. 
+This dataset contains meteorological observations from 46 Trans-African Hydro-Meteorological Observatory (TAHMO) weather stations located in the Kieni region. The data spans from 2017 to 2024, providing 7+ years of weather monitoring data. 
+<img width="820" height="854" alt="image" src="https://github.com/user-attachments/assets/d5289ccd-5bef-40b0-a35d-265a08031b63" />
 
 
 
