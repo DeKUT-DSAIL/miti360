@@ -66,25 +66,10 @@ The network consists of 46 automated weather stations with detailed location inf
 
 
 
-### Station Naming Convention
-- **TA**: Trans-African Hydro-Meteorological Observatory prefix
-- **XXXXX**: Unique 5-digit station identifier
-- **_SXXXXXX**: Sensor-specific suffix for multi-sensor stations
-
 ## Data Format and Structure
 
 ### File Format
 - Data will be available via an API key and Secret upon request.
-
-### Data Structure
-
-|Date        | TA00416 | TA00080_S000823 | ... | TA00573 |
-|----------- | ------- | --------------- | --- |-------- |                 
-| YYYY-MM-DD | value   | value           | ... | value   |
-
-
-### Missing Data Representation
-- **Missing values**
 
 
 ## Meteorological Variables
