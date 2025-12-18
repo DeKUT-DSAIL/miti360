@@ -108,7 +108,7 @@ The network consists of 46 automated weather stations with detailed location inf
 - **Precipitation**: Tipping bucket rain gauge (0.2 mm resolution)
 - **Radiation**: Pyranometer for shortwave radiation measurement
 - **Data logging**: Campbell Scientific CR1000 or equivalent
-- **Sampling frequency**: 1-minute intervals
+- **Sampling frequency**: 5-minute intervals
 - **Transmission**: GSM/GPRS telemetry
 
 ### Measurement Standards
