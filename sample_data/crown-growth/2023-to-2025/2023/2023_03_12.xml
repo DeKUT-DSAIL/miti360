@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation>
+  <folder>images</folder>
+  <filename>2023_03_12.tif</filename>
+  <size>
+    <width>4372</width>
+    <height>4372</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>tree</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>2568</xmin>
+      <ymin>4099</ymin>
+      <xmax>2678</xmax>
+      <ymax>4191</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>tree</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>2189</xmin>
+      <ymin>2251</ymin>
+      <xmax>2257</xmax>
+      <ymax>2316</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>tree</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>2438</xmin>
+      <ymin>1966</ymin>
+      <xmax>2489</xmax>
+      <ymax>2029</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation>
+  <folder>images</folder>
+  <filename>2024_08_12.tif</filename>
+  <size>
+    <width>4325</width>
+    <height>4326</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>tree</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>2520</xmin>
+      <ymin>4042</ymin>
+      <xmax>2677</xmax>
+      <ymax>4189</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>tree</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>2145</xmin>
+      <ymin>2233</ymin>
+      <xmax>2248</xmax>
+      <ymax>2328</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>tree</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>2393</xmin>
+      <ymin>1946</ymin>
+      <xmax>2478</xmax>
+      <ymax>2033</ymax>
+    </bndbox>
+  </object>
+</annotation>

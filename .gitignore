@@ -206,6 +206,8 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+.gitignore
+
 reports/technical_report.docx
 
 sample_data/*/exclude
@@ -214,3 +216,13 @@ sample_data/overlays/*
 
 notebooks/*.png
 notebooks/*.npy
+notebooks/deepforest_finetune
+notebooks/outputs
+notebooks/finetune.ipynb
+
+lightning_logs
+
+data/
+
+sample_data/annotations/*.csv
+sample_data/crown-growth/2024-to-2025/*/*.csv
