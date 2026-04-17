@@ -219,6 +219,11 @@ notebooks/*.npy
 notebooks/deepforest_finetune
 notebooks/outputs
 notebooks/finetune.ipynb
+notebooks/deepforest-epoch=72-val_loss=0.6651.ckpt
+notebooks/kenet_df_finetune.sh
+notebooks/*.csv
+notebooks/evaluate.py
+notebooks/df_finetune.sbatch
 
 lightning_logs
 
@@ -226,3 +231,9 @@ data/
 
 sample_data/annotations/*.csv
 sample_data/crown-growth/2024-to-2025/*/*.csv
+
+tree_attributes_phase_1.csv
+tree_attributes_phase_2.csv
+viz.ipynb
+
+*.png
