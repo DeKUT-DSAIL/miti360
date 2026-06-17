@@ -3,22 +3,22 @@
 In the era of artificial intelligence, machine learning combined with remote sensing and ground measurements offers unprecedented opportunities to enhance forest monitoring through faster, more accurate biomass estimation and individual tree analysis. Despite widespread interest, Africa suffers from a shortage of ML-ready forestry datasets, with most major collections—[NEON Crowns](https://doi.org/10.1101/2020.09.08.287839), [Auto Arborist](https://openaccess.thecvf.com/content/CVPR2022/html/Beery_The_Auto_Arborist_Dataset_A_Large-Scale_Benchmark_for_Multiview_Urban_CVPR_2022_paper.html), [ReforesTree](https://doi.org/10.1609/aaai.v36i11.21471), and a [Northern Australia dataset](https://doi.org/10.3390/data8020044)—originating elsewhere. The Miti360 dataset aims to bridge this geographic gap and  is tailored to support data-driven decision-making in establishing and monitoring reforested stands across diverse African landscapes. Existing ML-ready datasets from the Global North have limited relevance in Africa.
 
 ### Contents
-The dataset comprises aerial image data (orthophotos and tiles) annotated with bounding boxes for each tree, annotated terrestrial images (single and stereo), tree inventory data (biophysical parameter measurements, GPS coordinates, and species), and historical weather data (precipitation and temperature). These data were collected from a 770-ha reforested section of the Kieni Forest in Kenya between July 2024 and February 2025. 
+The dataset comprises aerial image data (orthophotos and tiles) annotated with bounding boxes for each tree, annotated terrestrial images (single and stereo), tree inventory data (biophysical parameter measurements, GPS coordinates, and species), and historical weather data (precipitation and temperature). These data were collected from a 770-ha reforested section of the Kieni Forest in Kenya between March 2023 and February 2025. 
 
 
 Below is a tabular summary of the dataset contents:
 
 | #   | Data Category                 | Data Type              | Quantity                                     | Format       |
 | --- | ----------------------------- | ---------------------- | -------------------------------------------- | ------------ |
-| 1   | Drone Images                  | Orthophoto             | 2                                            | TIF          |
-|     |                               | Tiles                  | 844                                          | TIF          |
-|     |                               | Tree crown annotations | 57058                                        | JSON         |
+| 1   | Drone Images                  | Orthophoto             | 3                                            | TIF          |
+|     |                               | Tiles                  | 1117                                          | TIF          |
+|     |                               | Tree crown annotations | 61866                                        | JSON         |
 |     |                               | Tree crown species     | 1208                                         | CSV          |
 |     |                               | Tree species shapefile | 1208                                         | SHP          |
-| 2   | Tree ground measurements      | Numeric data           | 1208 (601 trees in 2024 & 607 trees in 2025) | CSV          |
-| 3   | Ground based single images    | Images and tree masks  | 1208 (601 trees in 2024 & 607 trees in 2025) | JPEG         |
-| 4   | Tree stereo images            | Images and tree masks  | 2416 (601 trees in 2024 & 607 trees in 2025) | JPEG         |
-| 5   | Weather data from 40 stations | Time series data       | 8 years daily data                           | API endpoint |
+| 2   | Tree ground measurements      | Numeric data           | 1208 (604 trees twice - 2024 & 2025) | CSV          |
+| 3   | Ground based single images    | Images and tree masks  | 1208 (604 trees twice - 2024 & 2025) | JPEG         |
+| 4   | Tree stereo images            | Images and tree masks  | 1208 (604 trees twice - 2024 & 2025) | JPEG         |
+| 5   | Weather data from 46 stations | Time series data       | 8 years daily data                           | API endpoint |
 
 For each tree whose data was recorded during the field survey, there is a single image captured using a smartphone and a pair of images captured with a stereo camera. Other attributes recorded are the location, species, height, crown diameter, and basal diameter. These are captured in CSV files with the following column names:
 - `PHONE_IMAGE_FILENAME`: Tree's image taken with a smartphone. Saved in JPG format.
