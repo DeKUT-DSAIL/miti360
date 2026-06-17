@@ -237,3 +237,7 @@ tree_attributes_phase_2.csv
 viz.ipynb
 
 *.png
+*.csv
+
+weather-metadata/*.csv
+weather-metadata/*.ipynb
