@@ -34,12 +34,7 @@ For each tree whose data was recorded during the field survey, there is a single
 
 ### Dataset Organisation and Hosting
 - For information on how the dataset is organised, see this [README text file](README.txt).
-- The terrestrial and aerial images (together with associated metadata) are hosted in two Google Cloud Storage buckets:
-    - Aerial images: 
-        - [Phase one](https://storage.googleapis.com/miti360-aerial-archive/Phase_1/Phase_1.zip): Contains aerial images collected during phase one.
-        - [Phase two](https://storage.googleapis.com/miti360-aerial-archive/Phase_2/Phase_2.zip): Contains aerial images collected during phase two.
-    - [Terrestrial](https://storage.googleapis.com/miti360-terrestrial-archive/Terrestrial.zip): Contains ground-based images plus associated files.
-
+- The dataset is permanently hosted on [Hugging Face](https://huggingface.co/datasets/DeKUT-DSAIL/miti360) with persistent identifier (DOI).
 - The instructions for accessing the weather data are found in the [weather-metadata](weather-metadata) directory.
 
 ### Dissemination
